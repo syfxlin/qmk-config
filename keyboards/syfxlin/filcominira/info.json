@@ -4,7 +4,7 @@
   "manufacturer": "Otstar Lin",
   "maintainer": "Otstar Lin",
   "usb": {
-    "vid": "0xFEED",
+    "vid": "0x20A0",
     "pid": "0x6060",
     "device_version": "0.0.1"
   },
