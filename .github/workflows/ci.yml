@@ -35,8 +35,6 @@ jobs:
           ls ~/qmk_firmware
           # 库名如果和你的不同，请注意要替换
           cp -r ~/work/qmk-config/qmk-config/keyboards ~/qmk_firmware/
-          # 编译原有键盘
-          qmk compile -kb sofle -km via
           # 编译键盘
           qmk compile -kb filcominira -km default
 
