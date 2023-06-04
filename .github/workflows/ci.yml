@@ -36,7 +36,7 @@ jobs:
           # 库名如果和你的不同，请注意要替换
           cp -r ~/work/qmk-config/qmk-config/keyboards ~/qmk_firmware/
           # 编译键盘
-          qmk compile -kb filcominira -km default
+          qmk compile -kb syfxlin/filcominira -km default
 
       - name: Copy assets to Repo
         run: |
